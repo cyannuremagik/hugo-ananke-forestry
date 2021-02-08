@@ -10,6 +10,11 @@ sections:
   create: all
   match: "*"
 - type: directory
+  path: content/about
+  label: About that nobody
+  create: documents
+  match: "**/*"
+- type: directory
   path: content/post
   label: Post
   create: documents
@@ -18,9 +23,19 @@ sections:
   templates:
   - post
 - type: directory
-  path: content/about
-  label: About
+  path: ''
+  label: Peaks of definitions
   create: all
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Plateau of coding
+  create: all
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Glaciers of publications
+  create: documents
   match: "**/*"
 upload_dir: static/images
 public_path: "/images"
