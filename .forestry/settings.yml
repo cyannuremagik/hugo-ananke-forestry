@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Scaling mountains in a flat country
 - type: directory
   path: content
   label: Pages
@@ -22,16 +24,6 @@ sections:
   exclude: _index.md
   templates:
   - post
-- type: directory
-  path: ''
-  label: Peaks of definitions
-  create: all
-  match: "**/*"
-- type: directory
-  path: ''
-  label: Plateau of coding
-  create: all
-  match: "**/*"
 - type: directory
   path: ''
   label: Glaciers of publications
